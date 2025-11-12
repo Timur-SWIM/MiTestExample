@@ -1,0 +1,78 @@
+# === Keil uVision5 (MDK-ARM) project ===
+
+# Build output files
+*.axf
+*.elf
+*.hex
+*.bin
+*.srec
+*.map
+*.lst
+*.lnp
+*.crf
+*.o
+*.d
+*.dep
+*.htm
+*.h86
+*.plg
+*.uvgui.*
+*.tra
+
+# Keil intermediate build folders
+Listings/
+Objects/
+DebugConfig/
+RTE/
+Flash/
+ARM/
+
+# User-specific uVision5 workspace files
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.uvgui
+*.bak
+*.dep
+*.db
+*.uvprojx.bak
+
+# Other temporary / backup files
+*.log
+*.tmp
+*.old
+*.bak
+*.user
+*.swp
+*.swo
+*.swn
+*~
+Thumbs.db
+.DS_Store
+
+# === Optional: Keep only these essential project files ===
+# Uncomment if you want Git to track only key project files
+# !*.uvprojx
+# !*.uvoptx
+# !*.c
+# !*.h
+# !*.s
+# !README.md
+# !.gitignore
+
+# === Optional for Milandr MDR32 projects ===
+# Exclude generated peripheral driver libraries
+Libraries/StdPeriph_Driver/obj/
+Libraries/StdPeriph_Driver/Debug/
+Libraries/StdPeriph_Driver/Release/
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# VS Code extensions / temp files
+.history/
+*.VSCodeCounter/
+*.settings/
+*.cache/
+*.env
